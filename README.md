@@ -1,2 +1,65 @@
-# SentimentAnalysis
-# 🧠 Advanced Sentiment Analysis Dashboard A comprehensive, AI-powered sentiment analysis tool with real-time processing, emotion detection, and advanced visualization capabilities. Built with vanilla JavaScript, Chart.js, and Tailwind CSS for maximum performance and compatibility. ![Dashboard Preview](https://img.shields.io/badge/Status-Active-brightgreen) ![Version](https://img.shields.io/badge/Version-2.0-blue) ![License](https://img.shields.io/badge/License-MIT-yellow) ## ✨ Features ### 🎯 Core Analysis - **Advanced Sentiment Analysis** - Positive, negative, and neutral sentiment detection with confidence scoring - **Emotion Recognition** - Detects 6 primary emotions: joy, anger, fear, sadness, surprise, disgust - **Multi-language Support** - Analysis in English, Spanish, French, German, Italian, and Portuguese - **Real-time Processing** - Live analysis as you type with intelligent debouncing - **Context Detection** - Identifies business, healthcare, education, technology, and social contexts ### 📊 Visualization & Analytics - **Interactive Charts** - Sentiment distribution, emotion radar, confidence levels, and timeline views - **Word Cloud Generation** - Visual representation of most impactful sentiment words - **Advanced Filtering** - Filter by sentiment, confidence level, emotions, and search terms - **Trend Analysis** - Track sentiment patterns over time with detailed insights ### 🔧 Advanced Tools - **Spell Checking** - Multi-language spell correction with suggestions - **Batch Processing** - Upload and analyze CSV, TXT, or JSON files (up to 5000 entries) - **Template Library** - Pre-built templates for reviews, feedback, social media, and surveys - **Export Options** - Export results as CSV, JSON, or PDF reports ### 🎨 User Experience - **Dark/Light Theme** - Seamless theme switching with persistent preferences - **Responsive Design** - Optimized for desktop, tablet, and mobile devices - **Drag & Drop** - Easy file uploads with visual feedback - **Smart Notifications** - Contextual alerts and progress indicators - **Accessibility** - WCAG compliant with keyboard navigation support ## 🚀 Quick Start ### Prerequisites - Modern web browser (Chrome 80+, Firefox 75+, Safari 13+, Edge 80+) - No server setup required - runs entirely in the browser ### Installation 1. **Clone the repository**
+# Sentiment Analysis App
+
+A web application that analyzes the sentiment of user-provided text (such as reviews, comments, or tweets) and classifies it as **Positive**, **Negative**, or **Neutral**.  
+This project demonstrates the application of Natural Language Processing (NLP) techniques in a clean and user-friendly interface.
+
+## 🚀 Features
+- Input any text and instantly receive a sentiment classification
+- Detects **positive**, **negative**, and **neutral** tones
+- Real-time feedback with a simple and intuitive UI
+- Built with React and TypeScript for modular and type-safe development
+- Deployed on GitHub Pages for easy access
+
+## 🛠️ Tech Stack
+- **Frontend:** React, TypeScript, CSS  
+- **NLP / Sentiment Engine:** *(update this with what you used, e.g. Hugging Face API, TensorFlow.js, or custom logic)*  
+- **Deployment:** GitHub Pages  
+
+## 📂 Project Structure
+```bash
+.
+├── public/
+├── src/
+│   ├── components/
+│   ├── App.tsx
+│   ├── index.tsx
+│   └── styles/
+├── package.json
+├── tsconfig.json
+└── README.md
+```
+🌐 Live Demo
+
+👉 Sentiment Analysis App
+
+📸 Screenshots
+
+(Add screenshots of the app here, e.g. screenshot.png)
+
+
+📦 Installation
+
+Clone the repository and run it locally:
+# Clone the repo
+git clone https://github.com/Kagisogotech/SentimentAnalysis.git
+
+# Navigate to project folder
+cd SentimentAnalysis
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+Then open your browser at http://localhost:5173/ (or the port shown in your terminal).
+
+🤝 Contributing
+
+Contributions, issues, and feature requests are welcome.
+Feel free to fork this repo and open a pull request.
+
+📄 License
+
+This project is licensed under the MIT License.
+You are free to use, modify, and distribute this project.
+Made with ❤️ by Kagiso
